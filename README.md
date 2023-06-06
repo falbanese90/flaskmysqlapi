@@ -32,3 +32,10 @@
     ```
     Replace <yourusername> and <yourpassword> with your desired values.
 
+On a successful login it will return a payload containing Success message and a JWT. Example below:
+```json
+    {
+    "message": "Login successful",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.                     eyJ1c2VybmFtZSI6ImZhbGJhbmVzZTkwIiwiZXhwIjoxNjg2MDg1NTA4fQ.WUk_Hx2K53LbOgHqeArIH9lGWGNx8LC2HsHCf5_RqMs"
+    }
+```
